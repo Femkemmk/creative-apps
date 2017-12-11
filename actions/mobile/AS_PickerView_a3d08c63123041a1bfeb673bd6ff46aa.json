@@ -1,0 +1,24 @@
+{
+    "AS_PickerView_a3d08c63123041a1bfeb673bd6ff46aa": {
+        "id": "AS_PickerView_a3d08c63123041a1bfeb673bd6ff46aa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "component"
+        }, {
+            "datatype": "string",
+            "name": "keyselected"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia4c88bc586e4f339f9abcab1dd21cb0"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

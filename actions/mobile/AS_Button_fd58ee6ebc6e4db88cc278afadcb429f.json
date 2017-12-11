@@ -1,0 +1,73 @@
+{
+    "AS_Button_fd58ee6ebc6e4db88cc278afadcb429f": {
+        "id": "AS_Button_fd58ee6ebc6e4db88cc278afadcb429f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je2d737eea9e48bba8cdc0628be4ae5e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f624e93a1a614ffe9a2de944d5494a3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var elastane = this.view.Slider1.selectedValue;\nvar polyester = this.view.Slider2.selectedValue;\nvar cotton = this.view.Slider3.selectedValue; \n\nvar total = elastane + polyester + cotton ;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "IF_CONDITION__h30dfed5b3b64c018cf3168f202f3392",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "value",
+                "leftValue": "total",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "100"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_CONDITION__f7ec0df6f6134a0291c110dab232e2ab",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__e16bcb5218534465a92804d9fc515050",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"total must be 100%\")",
+            "parentId": "ELSE_CONDITION__f7ec0df6f6134a0291c110dab232e2ab",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___d70acae7b47c4268917075943518f55b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form4",
+            "formKUID": "c52d462e51a54dd88b9e47c105b13db3",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION__h30dfed5b3b64c018cf3168f202f3392",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "ADD_SNIPPET__f43467ac26ff4128b2f4853866e1eebc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  \n  kony.store.setItem(\"elastane\", elastane); \n  kony.store.setItem(\"polyester\", polyester); \n  kony.store.setItem(\"cotton\", cotton); \n",
+            "parentId": "IF_CONDITION__h30dfed5b3b64c018cf3168f202f3392",
+            "callbackType": null
+        }]
+    }
+}

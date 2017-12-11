@@ -1,0 +1,27 @@
+{
+    "AS_TextField_h8343cc9438b48df81899c8d935fa79d": {
+        "id": "AS_TextField_h8343cc9438b48df81899c8d935fa79d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "je2d737eea9e48bba8cdc0628be4ae5e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c4ae8c53ac9d41fbb7a239a36e47e1d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.Slider1.selectedValue=this.view.TextField1.text;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "134dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "saca42bca17e4e94bd643b3739714218",
+    "_text_": "Cotton",
+    "_top_": {
+        "type": "string",
+        "value": "307dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "13.80%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "Label3Cotton",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "f0a07a4d342a40d985e9ecfd3ad180d4",
+    "name": "kony.ui.Label",
+    "parent": "Form2",
+    "pf": "Form2",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

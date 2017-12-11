@@ -1,0 +1,158 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizPickerView",
+    "DNDConfig": null,
+    "__inst": null,
+    "__parentReadjusting__": false,
+    "__wheels": null,
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "71dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s455698cddb4486b8485f47b7e7f1d86",
+    "_top_": {
+        "type": "string",
+        "value": "205dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "Pick1",
+    "info": null,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "h919995a17a946aca8a16dff54a40a78",
+    "masterdata": [
+        [
+            [
+                "Bodysuits",
+                "Bodysuits"
+            ],
+            [
+                "Coats + Jackets",
+                "Coats + Jackets"
+            ],
+            [
+                "Dresses",
+                "Dresses"
+            ],
+            [
+                "Hoodies + Sweatshirts",
+                "Hoodies + Sweatshirts"
+            ],
+            [
+                "Jeans",
+                "Jeans"
+            ],
+            [
+                "Jumpers + Cardigans",
+                "Jumpers + Cardigans"
+            ],
+            [
+                "Jumpsuits + Playsuits",
+                "Jumpsuits + Playsuits "
+            ],
+            [
+                "Shirts + Blouses",
+                "Shirts + Blouses"
+            ],
+            [
+                "Lingerie",
+                "Lingerie"
+            ],
+            [
+                "Sleepwear",
+                "Sleepwear"
+            ],
+            [
+                "Sportswear",
+                "Sportswear"
+            ],
+            [
+                "Skirts",
+                "Skirts"
+            ],
+            [
+                "Tops",
+                "Tops"
+            ],
+            100,
+            "selectitem"
+        ]
+    ],
+    "masterdatamap": null,
+    "name": "kony.ui.PickerView",
+    "onselection": "AS_PickerView_a3d08c63123041a1bfeb673bd6ff46aa",
+    "parent": "Form1",
+    "pf": "Form1",
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        "Bodysuits"
+    ],
+    "size": 18,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "viewtype": 0,
+    "wType": "PickerView",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

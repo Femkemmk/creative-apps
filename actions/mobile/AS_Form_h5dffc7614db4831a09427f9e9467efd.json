@@ -1,0 +1,24 @@
+{
+    "AS_Form_h5dffc7614db4831a09427f9e9467efd": {
+        "id": "AS_Form_h5dffc7614db4831a09427f9e9467efd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je2d737eea9e48bba8cdc0628be4ae5e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ba6bb349ede14ceb803d3fc1d2285fa1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var r = kony.store.getItem(\"Clothing\"); \n//var rload = rarray.tostring();\n//var length = rload.length;\n//length--;\n//var r = rload.substr(1, length);\n\nthis.view.LabelItem.text = r; ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
