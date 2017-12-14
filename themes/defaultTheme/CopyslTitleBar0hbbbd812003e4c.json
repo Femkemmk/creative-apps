@@ -1,0 +1,14 @@
+{
+  "background_color": "b0c0d9ff",
+  "bg_type": "one",
+  "font_color": "7d94b3",
+  "font_name": "Arial, Helvetica, sans-serif",
+  "font_size": "100",
+  "font_weight": "normal",
+  "iphone": {
+    "font_name": "HelveticaNeue-UltraLight"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s7b738a3ab824198b5f0b09bea862328",
+  "wType": "TitleBar"
+}

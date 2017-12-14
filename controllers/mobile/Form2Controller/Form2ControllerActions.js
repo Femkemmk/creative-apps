@@ -34,18 +34,6 @@ define({
         var self = this;
         this.view.Slider1.selectedValue = this.view.TextField1.text;
     },
-    AS_Form_d7cfb402ad3b4229b3565c38404fb800: function AS_Form_d7cfb402ad3b4229b3565c38404fb800(eventobject) {
-        var self = this;
-    },
-    AS_Form_h5dffc7614db4831a09427f9e9467efd: function AS_Form_h5dffc7614db4831a09427f9e9467efd(eventobject) {
-        var self = this;
-        var r = kony.store.getItem("Clothing");
-        //var rload = rarray.tostring();
-        //var length = rload.length;
-        //length--;
-        //var r = rload.substr(1, length);
-        this.view.LabelItem.text = r;
-    },
     AS_Button_fd58ee6ebc6e4db88cc278afadcb429f: function AS_Button_fd58ee6ebc6e4db88cc278afadcb429f(eventobject) {
         var self = this;
         var elastane = this.view.Slider1.selectedValue;
@@ -61,5 +49,17 @@ define({
         } else {
             alert("total must be 100%")
         }
+    },
+    AS_Form_d7cfb402ad3b4229b3565c38404fb800: function AS_Form_d7cfb402ad3b4229b3565c38404fb800(eventobject) {
+        var self = this;
+    },
+    AS_Form_h5dffc7614db4831a09427f9e9467efd: function AS_Form_h5dffc7614db4831a09427f9e9467efd(eventobject) {
+        var self = this;
+        var r = kony.store.getItem("Clothing");
+        //var rload = rarray.tostring();
+        //var length = rload.length;
+        //length--;
+        //var r = rload.substr(1, length);
+        this.view.LabelItem.text = r;
     }
 });

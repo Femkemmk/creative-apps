@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s87705ce016b42b991bff7750a62a6de",
+    "_skin_": "s154410605054cf3b9e38ad1f1ec0ef0",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -25,7 +25,20 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "LabelBroek1",
+        "LabelBroek2",
+        "LabelBroek3",
+        "LabelBroek4",
+        "LabelBroek5",
+        "LabelBroek6",
+        "Image1",
+        "Image2",
+        "Image3",
+        "Image4",
+        "Image5",
+        "Image6"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -67,7 +80,8 @@
                 "titleClosureRightSideView": "",
                 "visible": true
             }
-        }
+        },
+        "titleBar": true
     },
     "isvisible": true,
     "kuid": "c52d462e51a54dd88b9e47c105b13db3",
@@ -82,7 +96,7 @@
     "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "titleBarSkin": "sd37c8430cca43ffbfc5b30c5e68fe93",
+    "titleBarSkin": "sc539af9768947baabe20abfa63b38dc",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

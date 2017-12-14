@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "630dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-100dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s073bea5df4b4db3959600f203c51bbd",
+    "_src_": "levis_interface.jpg",
+    "_top_": {
+        "type": "string",
+        "value": "-25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "575dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "Form5",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "ImageWebsite",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "c03ab4c51cec4653b529225be8c534b3",
+    "name": "kony.ui.Image2",
+    "parent": "Form5",
+    "pf": "Form5",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

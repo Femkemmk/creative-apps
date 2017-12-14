@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
-    "_init_": "AS_Form_d7cfb402ad3b4229b3565c38404fb800",
     "_margin_": [
         0,
         0,
@@ -16,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se1aad8223fb46b8911cc7d0ccfa7496",
+    "_skin_": "sc00a8c2066f4ac7b4494be6a187a937",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -27,28 +26,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "Camera0affd1c56f78c4b",
-        "Slider3",
-        "Slider2",
-        "Slider1",
-        "Label3Cotton",
-        "Label2Polyester",
-        "Label1Elastane",
-        "TextField3",
-        "TextField2",
-        "TextField1",
-        "Percentage3Cotton",
-        "CopyPercentage0f72cc24109f046",
-        "CopyPercentage0he691d87981b49",
-        "LabelItem",
-        "Button0fa9f97b7a8fb49",
-        "Image0"
+        "ImageWebsite"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form2Controller"
+            "name": "Form5Controller"
         }
     },
     "currentLocale": "default",
@@ -58,7 +42,7 @@
     "device": "iPhone6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form2",
+    "id": "Form5",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -89,20 +73,19 @@
         "titleBar": true
     },
     "isvisible": true,
-    "kuid": "je2d737eea9e48bba8cdc0628be4ae5e",
+    "kuid": "ecca6868a53d46e6b7662419f06d0994",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "iphone",
-    "preshow": "AS_Form_h5dffc7614db4831a09427f9e9467efd",
     "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
     "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "titleBarSkin": "s7b738a3ab824198b5f0b09bea862328",
+    "titleBarSkin": "sd37c8430cca43ffbfc5b30c5e68fe93",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

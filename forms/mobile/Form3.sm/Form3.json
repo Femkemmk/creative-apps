@@ -68,10 +68,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isvisible": true,
     "kuid": "b192e592e2054188b39026e90963db72",
@@ -86,7 +86,7 @@
     "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "titleBarSkin": "sd37c8430cca43ffbfc5b30c5e68fe93",
+    "titleBarSkin": "s0090b437cd0458090a8ecde9b7e3b77",
     "titlebar": true,
     "type": 3,
     "wType": "Form"
